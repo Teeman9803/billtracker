@@ -1,0 +1,12 @@
+<table class="table">
+  <th>Name</th>
+  <th>Amount</th>
+  <th>Due Date</th>
+  <th>Status</th>
+  <tr *ngFor="let bill of bills">
+    <td>{{bill.name}}</td>
+    <td>${{bill.amount}}</td>
+    <td>{{bill.dueDate}}</td>
+    <td>{{bill.status}}</td>
+  </tr>
+</table>

@@ -1,0 +1,8 @@
+<table class="table">
+  <th>Name</th>
+  <th>Amount</th>
+  <tr *ngFor="let account of accounts">
+    <td>{{account.name}}</td>
+    <td>${{account.balance}}</td>
+  </tr>
+</table>
